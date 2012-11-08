@@ -1,3 +1,5 @@
+Typically in OAuth for twitter you will be encouraged to use a custom HTTP Request that generates headers that are attached to the request representing the Authentication information. This works well in custom code but fails when you dont have access to create headers in the request. An undocumented option exists that doesn't require custom headers. You can simply convert the headers into URL Encoded values and create a URL that contains a query string like http://www.google.com?query=helloworld
+
 Based on the work of ErisDS at http://erisds.co.uk/code/twitter-oauth-simple-curl-requests-for-your-own-data
 
 Quick Curl can be found as part of https://github.com/benbunk/cosc
