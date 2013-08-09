@@ -14,7 +14,7 @@ class TwitterURLGen {
 
   protected $OAuth;
 
-  public function __constructor(
+  public function __construct(
     $base_url,
     $params,
     $oauth_access_token,
