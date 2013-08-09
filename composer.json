@@ -1,0 +1,12 @@
+{
+    "name": "benbunk/twitter_url_gen",
+    "description": "None",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Ben Bunk",
+            "email": "ben+spam@stupil.com"
+        }
+    ],
+    "license": "MIT"
+}
