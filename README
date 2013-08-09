@@ -12,3 +12,8 @@ TODO:
 
 Use jsSHA to build a web UI.
 
+
+USAGE
+$generator = new TwitterURLGen(x, z, y);
+$generator->buildUrl();
+
